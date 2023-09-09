@@ -1,0 +1,144 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Jenny> ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-V5O50OK
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : karunya.edu
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Remote NDIS based Internet Sharing Device
+   Physical Address. . . . . . . . . : CE-09-C3-A0-8F-72
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2409:40f4:100c:f21d:eb74:51f7:8df:7db5(Preferred)
+   Temporary IPv6 Address. . . . . . : 2409:40f4:100c:f21d:4d9b:e0e6:a543:fcc9(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::3be3:3986:76a9:49cf%21(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.50.41(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, September 9, 2023 12:03:16
+   Lease Expires . . . . . . . . . . : Saturday, September 9, 2023 13:03:16
+   Default Gateway . . . . . . . . . : fe80::8c93:c7ff:feb4:710%21
+                                       192.168.50.178
+   DHCP Server . . . . . . . . . . . : 192.168.50.178
+   DHCPv6 IAID . . . . . . . . . . . : 821459227
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-CD-F5-DD-5C-61-99-4B-20-4D
+   DNS Servers . . . . . . . . . . . : 192.168.50.178
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 4:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-18
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::cbcf:8f8:1bfd:3407%24(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1007288359
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-CD-F5-DD-5C-61-99-4B-20-4D
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : TAP-ProtonVPN Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-79-D0-E9-EE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Physical Address. . . . . . . . . : 5E-61-99-4B-20-4D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Physical Address. . . . . . . . . : DE-61-99-4B-20-4D
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::a7e7:1822:fe0d:7b77%13(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.174.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, September 9, 2023 10:32:04
+   Lease Expires . . . . . . . . . . : Saturday, September 9, 2023 12:32:02
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 192.168.174.254
+   DHCPv6 IAID . . . . . . . . . . . : 805326934
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-CD-F5-DD-5C-61-99-4B-20-4D
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::50f1:6fa7:f2cf:caa%27(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.86.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, September 9, 2023 10:32:04
+   Lease Expires . . . . . . . . . . : Saturday, September 9, 2023 12:32:02
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 192.168.86.254
+   DHCPv6 IAID . . . . . . . . . . . : 822104150
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-CD-F5-DD-5C-61-99-4B-20-4D
+   Primary WINS Server . . . . . . . : 192.168.86.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : karunya.edu
+   Description . . . . . . . . . . . : Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+   Physical Address. . . . . . . . . : 5C-61-99-4B-20-4D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 10.3.16.239(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, September 9, 2023 11:56:02
+   Lease Expires . . . . . . . . . . : Saturday, September 9, 2023 18:37:04
+   Default Gateway . . . . . . . . . : 10.3.16.254
+   DHCP Server . . . . . . . . . . . : 192.168.2.245
+   DNS Servers . . . . . . . . . . . : 192.168.0.111
+                                       192.168.0.222
+   Primary WINS Server . . . . . . . : 192.168.2.27
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 5C-61-99-4B-20-4E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+PS C:\Users\Jenny>
